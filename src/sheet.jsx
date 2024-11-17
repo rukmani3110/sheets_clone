@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react'
-import { calculateRowsAndColumnsToDisplay, resizeCanvas, getEncodedCharacter } from './Sheet.util'
+import { calculateRowsAndColumnsToDisplay, resizeCanvas, getEncodedCharacter } from './sheet.util'
 
 export const Sheet = (props) => {
     const canvasRef = useRef(null);

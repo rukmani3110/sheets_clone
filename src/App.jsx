@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Sheet } from './Sheet'
+import { Sheet } from './sheet'
 
 const initialData = [];
 for (let row = 0; row < 1000; row++) {
